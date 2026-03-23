@@ -199,3 +199,44 @@ Java provides several types of operators categorized as follows:
 • Bitwise Operators
 • Ternary Operator
 • Instanceof Operator
+What are Conditional Statements in Java?
+Conditional Statements (also called Decision Making Statements) allow you to execute different blocks of code based on Boolean conditions (true/false).
+
+🔹 1. if Statement in Java
+The if statement evaluates a boolean expression. If the expression evaluates to true, the block of code inside the if statement is executed.
+
+    • Executes a block of code only if the condition is true.
+    • If the condition is false, the block is skipped.
+ 
+Syntax:
+if (condition) {
+    // Code to execute if the condition is true
+}
+🔹 2. if-else Statement in Java 
+The if-else statement allows you to specify an alternative block of code that runs if the condition is false.
+
+    • Executes the if block if the condition is true.
+    • Else, it executes the else block.
+ 
+Syntax:
+if (condition) {
+    // Code to execute if the condition is true
+} else {
+    // Code to execute if the condition is false
+}
+
+🔹 3. if-else-if (Ladder Statement)
+The if-else if-else ladder allows you to test multiple conditions sequentially. Once a condition evaluates to true, the corresponding block of code executes, and the rest are skipped.
+    • Used when there are multiple conditions to check.
+    • Java checks the conditions from top to bottom.
+    • First true condition’s block gets executed.
+
+Syntax:
+if (condition1) {
+    // Code to execute if condition1 is true
+} else if (condition2) {
+    // Code to execute if condition2 is true
+} else {
+    // Code to execute if all conditions are false
+}
+ 

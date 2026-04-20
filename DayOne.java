@@ -11,5 +11,6 @@ public class DayOne {
     short c=30788; System.out.println(c);
     long i=123451234;  System.out.println(i);
     float f=  1234.23456666655559f; System.out.println(f);
+    System.out.println(i);
     }
 }
